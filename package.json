@@ -1,0 +1,29 @@
+{
+  "name": "emika-head-of-operations",
+  "version": "1.0.0",
+  "description": "COO Operations Dashboard for Emika AI Employee Platform",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "pm2": "pm2 start ecosystem.config.js",
+    "pm2:stop": "pm2 stop emika-head-of-operations",
+    "pm2:restart": "pm2 restart emika-head-of-operations",
+    "pm2:delete": "pm2 delete emika-head-of-operations"
+  },
+  "keywords": [
+    "emika",
+    "coo",
+    "operations",
+    "dashboard",
+    "ai-employee"
+  ],
+  "author": "Emika AI",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
